@@ -95,3 +95,7 @@ You can get this your IPFS id with:
     "ProtocolVersion": "ipfs/0.1.0"
 }
 ```
+
+# Setting up an EC2 instance running ipfs
+
+[EC2_setup.md](EC2_setup.md)
