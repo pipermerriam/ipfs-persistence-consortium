@@ -8,7 +8,7 @@ A agreement among trusted parties to assist with persistance of IPFS objects.
 ## Clone the source
 
 ```
-$ git clone git@github.com:pipermerriam/ipfs-persistence-consortium.git
+$ git clone https://github.com/pipermerriam/ipfs-persistence-consortium.git
 ```
 
 `cd` into the newly cloned repository
