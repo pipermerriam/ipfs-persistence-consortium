@@ -90,7 +90,11 @@ def get_pinned_ipfs_objects():
     ))
 
 
-def connect_to_peer(peer_id):
+def connect_to_peer(peer_id, logger=None):
+    if logger is None:
+        global _logger
+        logger = _logger
+
     dht_peer_info = ipfs("dht", "findpeer", peer_id).strip().splitlines()
 
     for address in dht_peer_info[1:]:
