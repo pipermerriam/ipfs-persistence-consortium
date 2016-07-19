@@ -64,6 +64,16 @@ Create a directory to contain your IPFS manifest JSON files.
 $ mkdir ~/ipfs-manifests
 ```
 
+In this directory, create any number of `*.json` files.  These files should contain a single top level array of IPFS file hashes.
+
+```javascript
+// manifest1.json
+[
+    "QmYwxuzozCBSD3FLP5Rg1pAXA4qjDtNrdGjyNzqEtr8TKu",
+    "QmTrXyK24CAymWj5eATjxrisc8QaJocnGSY11BFFDEvqtH"
+]
+```
+
 Add this file into IPFS
 
 ```bash
